@@ -25,7 +25,7 @@ module Ahoy
           account_id: options[:account_id],
           user_id: user.try(:id),
           name: name.to_s,
-          type_data: options[:type_name],
+          type_name: options[:type_name],
           type_id: options[:type_id],
           properties: properties,
           response: options[:response],
